@@ -5,6 +5,21 @@
     margin: 0px;
 }
 
+/*--Difinição de textos e cores*/
+
+:root{
+   --cor1:#FEF1E1; 
+   --cor2:#C0DAB5;
+   --cor3:#F6AF83;
+   --cor4:#FDC0AE;
+   --cor5:#FF5A77;
+   --cor6:#0D0D0D;
+   --cor7:#F2F2F2;
+
+   --fonte-padrão:arial;
+   --font-adpatada:Lucida Calligraphy;
+}
+
 /*--Area Do menu--*/
 
 header{
@@ -16,9 +31,9 @@ header{
 .menu{
     display: flex;
     justify-content: space-between;
-    background-color: #FDC0AE;
+    background-color: var(--cor4);
     padding: 10px;
-    color: #0D0D0D;
+    color: var(--cor6);
 }
 
 .Nome-e-Menu{
@@ -40,25 +55,25 @@ header{
 }
 
 .Branco{
-    font-family: Lucida Calligraphy;
-    color: #FF5A77;
+    font-family: var(--font-adpatada);
+    color: var(--cor5);
 }
 
 .Rosa{
-    font-family: Lucida Calligraphy;
-    color: #FEF1E1;	 
+    font-family: var(--font-adpatada);
+    color: var(--cor1);	 
 }
 
 
 .Barra-central{
-    background-color: #F2F2F2;
+    background-color: var(--cor7);
     border-radius: 20px;
     padding: 15px;
     display: flex;
     border: solid 1px;
-    border-color: #FEF1E1;
+    border-color: var(--cor1);
     font-family: arial;
-    box-shadow: 1px 1px 1.5px #F2F2F2;  
+    box-shadow: 1px 1px 1.5px var(--cor1);  
     height: 10px;
     width: 150px;
     background-image:url(imagens/lupa.png);
@@ -70,7 +85,7 @@ header{
 #sem-borda-e-cor-de-fundo-input{
     outline: none;
     border: none;
-    background-color: #F2F2F2;
+    background-color: var(--cor7);
 	width: 100px;
     
     
@@ -79,17 +94,17 @@ header{
 .Entrada-login-cadastro{
     text-decoration: none;
     border: solid;
-    border-color: #FEF1E1;
+    border-color: var(--cor1);
     padding: 14px;
-    color:black;
-    font-family: arial;
+    color: var(--cor6);
+    font-family: var(--fonte-padrão);
     border-radius: 5px;
-    background-color: #F2F2F2;
+    background-color: var(--cor7);
 }
 
 .Entrada-login-cadastro:hover{
-    background-color: #0D0D0D;
-    color: #F2F2F2;
+    background-color: var(--cor6);
+    color: var(--cor7);
     transition: .3s;
     
 }
@@ -107,7 +122,7 @@ header{
 /*--Area Lateral--*/
 
 .Are-Lateral{
-    background-color: #0D0D0D;
+    background-color: var(--cor6);
     width: 250px;
     height: 685px;
     display: none;
@@ -118,7 +133,7 @@ header{
     text-decoration: none;
     padding: 20px;
     display: block;
-    background-color: #F2F2F2;
-    border: solid #0D0D0D;
+    background-color: var(--cor1);
+    border: solid var(--cor6);
     
 }
