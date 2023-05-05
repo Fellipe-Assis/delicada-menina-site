@@ -1,0 +1,125 @@
+anotações
+comentario <!---->
+<link rel="shortcut icon" href="ico"><!--Adicionar icone-->
+<title> <!--Nome da barra do site-->
+<h1><!--Titulo do site/Hierarquia de texto assim como h2,h3,h4,h5,h6-->
+<hr><!--Linha vertical-->
+</p><!--Paragrafo-->
+<img src="imagens/.jpg" alt="Logo HTML5">
+                <!--
+                img coloca imagens
+				JPG - compacta imagens;
+				PNG - Transparência e qualidade;
+				GIF-transparência e animação 
+				-->
+<address><!--usado para linkar -->
+<style type="text/css" <!--colocar cor no fundo do site ou em qualquer coisa,podendo colocar de forma que possa marcar varias coisas em um só -->>
+<br> quebra linha
+<b> termo em negrito(sem semantica)
+<strong> termo em destaque(com semantica)
+<i> termo em italico(sem semantica)
+<em> termo em italico(com semantica)
+<mark>termo marcado em forma de marca texto
+<del> texto riscado desconsiderado
+<ins>texto sublinhado
+<sup>texto sobre escrito,usado em formulas
+<sub>texto usado para inserir coisas com formulas
+<code>usado para letras ficarem mais visiveis/terem o mesmo espaço
+<pre> é usado para alinhar palavras mas também muda sua escrita
+<q>usado para colocar aspas quando não é simples
+<blockquote> usado para referenciar algo de outro autor podendo usar até cite-"" para colocar de onde veio essa citação
+<abbr title="">usado em abreviações(colocar o significado da abreviação)
+
+<ol> lista ordernada
+também podendo mudar de numero para outra coisa como:
+<ol type="A">
+<ol type="a">
+<ol type="1">
+<ol type="I">
+<ol type="i">
+    cada inten é um <li>
+
+<ul>lista não ordenada
+ também usa <li>
+tambem podendo mudar sua forma como:
+<ul type="disc">
+<ul type="circle">
+<ul type="square">
+podemos colocar listas dentro da outra como por exemplo 
+
+<ol> 
+	<li> 1 </li>
+	<li> 2 </li>
+	<li> 3 </li>
+	<li> 4 </li>
+	<li> 5 </li>
+		<ol>
+			<li> 1 </li>
+			<li> 2 </li>
+			<li> 3 </li>
+			<li> 4 </li>
+			<li> 5 </li>
+		</ol>
+	<li> 1 </li>
+	<li> 2 </li>
+</ol>
+
+<dl> lista de definição </dl> podendo usar:
+	<dt> termo que pode ser qualquer coisa
+	<dd> descrição é descrição 
+
+tag <a href="(dentro das aspas vc coloca o link do site)"> usada para direcionamento,links e para a pessoa não sair do seu site vc pode usar (target="_blank" rel="external") para abrir em uma nova guia do site
+usado dentro da tag <a>rel="next" -> indica que é para pagina seguinte
+usado dentro da tag <a>rel="prev" -> indica que é para pagina anterior
+usado dentro da tag<a>target="_self" -> indica que é para a pagina que está
+./ -> significa propria pasta
+../ -> significa volte uma pasta
+
+pata fazer download ,dentro de uma tag <a> coloque o nome do arquivo e caso esteja em uma pasta coloque a pasta dentro do href,e em seguida coloque download="(o que sera baixado junto a sua formatação como por exeplmo zip)" type="application/pdf(caso seja pdf)" baixe o pdf <a>
+
+
+
+<picture>usado para movimentação da imagem para tornar flexivel em diversos aparelhos
+usamos esse codigo	<source media="(max-width: 1050px)" srcset="imagens/item1.png" type="image/png">
+		<img src="imagens/silvias15.png" alt="imagem flexivel">
+</picture>
+
+estilo css
+
+background-color: usado para dar cor no fundo ou em outra tag
+font-family: usado para fonte que deseja usar 
+font-size: usado para tamanho da fonte 
+background-image: linear-gradient:usado para dar degrade 
+background-attachment: fixed; usado para fixar o degrade no fundo da pagina
+text-align: justify; usado para ajustar o texto
+width: usado para definir altura
+padding: usado para dar uma largura na borda do  texto que está no site
+margin:usado para centralizar ou ajustar(pode ser no meio nas bordas e ext..) de acordo com tamanho da tela o que voce colocar o que voce quer mexer  
+border-radius:usado para fazer uma curvinha na borda
+box-shadow:usado para sombrear 
+text-shadow:usado para sombrear texto
+
+seletores personalisados
+
+id="" usado para fazer alterações em uma mesma tag sem mexer em todas podendo usar apenas uma vez(referenciado com #)
+class=""usado para fazer alterações em uma mesma tag sem mexer em todas podendo usar mais de uma vez(referenciado com .)
+
+
+div é apenas um espaço 
+
+heigt: é altura
+width: é largura
+
+: é uma pseudo classe (ela é são relacionadas ao estado de um determinado elemento se ele esta habilitado vazio e etc.. ) 
+> seguinifica filho (um item dentro do outro)
+
+houver é quando voce passa o mouse por cima 
+
+
+
+
+
+
+
+
+

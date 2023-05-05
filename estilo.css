@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*--Area Do menu--*/
+
+header{
+    top: 0;
+    position: sticky; 
+	
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FDC0AE;
+    padding: 10px;
+    color: #0D0D0D;
+}
+
+.Nome-e-Menu{
+    text-decoration: none;
+}
+
+.Barra-nome-logo{
+    padding: 5px;
+    display: flex;
+}
+
+#botão-Menu{
+    cursor: pointer;
+}
+
+.espaço{
+    padding-left: 8px;
+    
+}
+
+.Branco{
+    font-family: Lucida Calligraphy;
+    color: #FF5A77;
+}
+
+.Rosa{
+    font-family: Lucida Calligraphy;
+    color: #FEF1E1;	 
+}
+
+
+.Barra-central{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    border: solid 1px;
+    border-color: #FEF1E1;
+    font-family: arial;
+    box-shadow: 1px 1px 1.5px #F2F2F2;  
+    height: 10px;
+    width: 150px;
+    background-image:url(imagens/lupa.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: right center;  	
+}
+
+#sem-borda-e-cor-de-fundo-input{
+    outline: none;
+    border: none;
+    background-color: #F2F2F2;
+	width: 100px;
+    
+    
+}
+
+.Entrada-login-cadastro{
+    text-decoration: none;
+    border: solid;
+    border-color: #FEF1E1;
+    padding: 14px;
+    color:black;
+    font-family: arial;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+}
+
+.Entrada-login-cadastro:hover{
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    transition: .3s;
+    
+}
+
+#botão-ficar-lado-a-lado{
+    padding-top: 10px;
+}
+
+#linha-trasparente{
+    opacity: 0.3;
+}
+
+
+
+/*--Area Lateral--*/
+
+.Are-Lateral{
+    background-color: #0D0D0D;
+    width: 250px;
+    height: 685px;
+    display: none;
+    
+}
+
+.Texto{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    background-color: #F2F2F2;
+    border: solid #0D0D0D;
+    
+}
