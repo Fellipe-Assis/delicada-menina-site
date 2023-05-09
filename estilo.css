@@ -137,3 +137,13 @@ header{
     border: solid var(--cor6);
     
 }
+
+
+/*--Roda Pé--*/
+
+.Roda-Pé{
+    background-color: var(--cor4);
+    font-family: var(--font-adpatada);
+    
+
+}
