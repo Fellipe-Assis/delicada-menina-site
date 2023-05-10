@@ -56,12 +56,12 @@ header{
 
 .Branco{
     font-family: var(--font-adpatada);
-    color: var(--cor5);
+    color: var(--cor1);
 }
 
 .Rosa{
     font-family: var(--font-adpatada);
-    color: var(--cor1);	 
+    color: var(--cor5);	 
 }
 
 
@@ -141,9 +141,24 @@ header{
 
 /*--Roda Pé--*/
 
-.Roda-Pé{
+footer{
+    position: absolute;
+    bottom: 0;
     background-color: var(--cor4);
-    font-family: var(--font-adpatada);
-    
-
+    color: var(--cor6);
+    width: 100%;
+    height: 35px;    
+    text-align: center;
+    line-height: 35px;
+   
 }
+
+.Roda-Pé{
+    font-size: 9px;
+    font-family: var(--fonte-padrão);
+    display: flex;
+    justify-content: center;
+      
+}
+
+
