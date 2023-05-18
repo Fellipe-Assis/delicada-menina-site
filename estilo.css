@@ -24,7 +24,8 @@
 
 header{
     top: 0;
-    position: sticky; 
+    position: sticky;
+    position: relative; 
 	
 }
 
@@ -122,10 +123,14 @@ header{
 /*--Area Lateral--*/
 
 .Are-Lateral{
-    background-color: var(--cor6);
+    background-color: var(--cor4);
     width: 250px;
     height: 685px;
     display: none;
+    border: solid;
+    border-color: var(--cor6);
+    position: relative;
+    margin-top: -64px;
     
 }
 
