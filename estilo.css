@@ -15,6 +15,7 @@
    --cor5:#FF5A77;
    --cor6:#0D0D0D;
    --cor7:#F2F2F2;
+   
 
    --fonte-padrão:arial;
    --font-adpatada:Lucida Calligraphy;
@@ -39,6 +40,7 @@ header{
 
 .Nome-e-Menu{
     text-decoration: none;
+    
 }
 
 .Barra-nome-logo{
@@ -46,8 +48,17 @@ header{
     display: flex;
 }
 
+#barra-nome-logo{
+   padding: 5px;
+}
+
 #botão-Menu{
     cursor: pointer;
+}
+
+#botão{
+    cursor: pointer;
+    padding: 14px;
 }
 
 .espaço{
@@ -124,11 +135,10 @@ header{
 
 .Are-Lateral{
     background-color: var(--cor4);
-    width: 250px;
-    height: 685px;
+    width: 270px;
+    height: 740px;
     display: none;
-    border: solid;
-    border-color: var(--cor6);
+    border: solid var(--cor4);
     position: relative;
     margin-top: -64px;
     
@@ -139,10 +149,17 @@ header{
     padding: 20px;
     display: block;
     background-color: var(--cor1);
-    border: solid var(--cor6);
-    
+    border: solid var(--cor6); 
+    font-family: var(--font-adpatada);
+    font-size: 15px;
+    color: var(--cor6);
 }
 
+
+.alinhamento{
+    padding: 3px;
+    margin-top: 3px ;
+}
 
 /*--Roda Pé--*/
 
@@ -159,7 +176,7 @@ footer{
 }
 
 .Roda-Pé{
-    font-size: 9px;
+    font-size: 7px;
     font-family: var(--fonte-padrão);
     display: flex;
     justify-content: center;
